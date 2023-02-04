@@ -1,0 +1,36 @@
+body{
+    background-color: #e7f2f5;
+    margin-top: 100px;
+    
+}
+button{
+    background-color: blue;
+    border: none;
+    border-radius: 25px;
+    height: 40px;
+    width: 110px;
+    color: white;
+    
+}
+header{
+    background-color: white;
+    width: 350px;
+    text-align: center;
+    padding: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+    border-radius: 10px;
+    position: relative;
+}
+header::after{
+    background-color: blue;
+    content: "";
+    width: 275px;
+    height: 117%;
+    position: absolute;
+    top: -2rem;
+    left: 8rem;
+    border-radius: 15px;
+    z-index: -5;
+    bottom: -2rem;
+}
